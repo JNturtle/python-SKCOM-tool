@@ -13,3 +13,4 @@ python 群益API SKCOM工具
 **「三個位置的SKCOM都是最新版本就沒有問題。」**
 
 若不需要GUI，執行「F.py」，查看輸出即可。
+新增 tkinter 版，可以單獨執行。
