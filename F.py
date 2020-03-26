@@ -69,8 +69,8 @@ def reset():
 reset()
 #
 
-if __name__ == "__main__":   
-    """查看 infoDict"""
+
+if __name__ == "__main__":    
     for key in infoDict:
         print(key)
         if type(infoDict[key]) is dict:

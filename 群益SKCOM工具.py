@@ -35,7 +35,7 @@ class SKCOMUpdater(QDialog):
         MCV = ID['CCCOM']['version']
         if LCV != defaultVersion:
             title = "資料夾內的COM元件不是最新版本"
-            content = "\n".join(["資料夾內的COM元件 {:}".format(LCV), "不是最新版本 {:}".format(SysVersion), "請下載最新群益API的COM替換"])
+            content = "\n".join(["資料夾內的COM元件 {:}".format(LCV), "不是最新版本 {:}".format(defaultVersion), "請下載最新群益API的COM替換"])
             showMegBox(self, "critical", title, content)
         elif LCV == "不存在":
             title = "找不到資料夾內的COM元件"
