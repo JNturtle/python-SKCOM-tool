@@ -69,5 +69,14 @@ def reset():
 reset()
 #
 
-
+if __name__ == "__main__":   
+    """查看 infoDict"""
+    for key in infoDict:
+        print(key)
+        if type(infoDict[key]) is dict:
+            for item in infoDict[key]:
+                print(item, infoDict[key][item])
+        else:
+            print(infoDict[key])
+        print("-"*20)
 
